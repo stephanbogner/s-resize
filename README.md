@@ -11,8 +11,8 @@ You run a website **without** a backend that keeps your images crisp? This is fo
 **Tip:** Works great with [Kirby](https://getkirby.com).
 
 ### Preparations
-1. Place high-resolution images in any standard (like *jpg*, *png* **NOT** *Sketch* or *Photoshop*) into a sub-folder called **$originals**
-2. Add custom ending to images for specific size (e.g. *myImage@thumb.jpg*)
+1. Place high-resolution images in any standard (like *jpg*, *png* **NOT** *Sketch* or *Photoshop*) into a sub-folder called **$originals** (the derived images will be placed in the parent directory)
+2. Add custom ending to images for specific sizes (e.g. *myImage@thumb.jpg*)
 3. Customize your workflow: Open `resize.py` in a text editor and edit sizes and names
 4. Done
 
